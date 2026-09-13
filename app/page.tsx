@@ -8,7 +8,7 @@ const menuItems = [
     number: "01",
     title: "Nasza historia",
     href: "/historia",
-    symbol: "♡",
+    symbol: "∞",
   },
   {
     number: "02",
@@ -32,7 +32,7 @@ const menuItems = [
     number: "05",
     title: "Życzenia",
     href: "/zyczenia",
-    symbol: "✉",
+    symbol: "♡",
   },
   {
     number: "06",
@@ -174,6 +174,7 @@ export default function Home() {
                 className="group relative min-h-[150px] overflow-hidden border border-[#d3b56f]/25 bg-[#f7f3e9]/[0.015] p-7 text-left transition-all duration-500 hover:-translate-y-1 hover:border-[#d3b56f]/65 hover:bg-[#d3b56f]/[0.04]"
               >
 
+                {/* SUBTELNY BLASK */}
                 <div className="pointer-events-none absolute -right-16 -top-16 h-40 w-40 rounded-full bg-[#d3b56f]/0 blur-3xl transition-all duration-500 group-hover:bg-[#d3b56f]/10" />
 
                 <div className="relative z-10 flex h-full flex-col justify-between">
@@ -209,6 +210,7 @@ export default function Home() {
 
           </div>
 
+          {/* DÓŁ */}
           <div className="mt-12 text-center">
 
             <div className="mx-auto mb-6 h-px w-12 bg-[#d3b56f]/30" />
